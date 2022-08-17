@@ -1,0 +1,71 @@
+{
+    "numberOrder": 1290,
+    "dateRegister":"15/06/2022",
+    "empresa":"objectID",
+    "clientId":{
+        "datos":"Guardamos id de usuario para relacionar"
+    },
+    "machines":[
+        {
+            "nombre":"Mini esmeriladora",
+            "marca":"",
+            "modelo":"",
+            "numeroDeSerie":"",
+            "aqueviene":"Reparacion",
+            "description":"No enciende",
+            "accesorios":"una guarda, y xxxxxxxx",
+            "revision":[
+                {
+                    "diagnostigo":"se detecto que tiene x cosa",
+                    "spareparts":[
+                        {
+                            "spareparts":"ObjectId con la refaccion que necesite",
+                            "quantity":"las que se necesitan no las que hay en stock"
+                        }
+                    
+                    ]
+                
+                    
+                }
+            ],
+<<<<<<< HEAD
+            "status":"en resvision",
+=======
+>>>>>>> 74f65413a940b0a3fcc59f294613395d667b775b
+            "garantia":false,
+            "reparacion":true,
+            "costoDeRparacion":800,
+            "iva":16
+        },
+        {
+            "nombre":"Mini esmeriladora",
+            "marca":"",
+            "modelo":"",
+            "numeroDeSerie":"",
+            "aqueviene":"Reparacion",
+            "description":"No enciende",
+            "accesorios":"una guarda, y xxxxxxxx",
+            "revision":[
+                {
+                    "diagnostigo":"se detecto que tiene x cosa",
+                    "spareparts":[
+                        {
+                            "spareparts":"ObjectId con la refaccion que necesite"
+                        }
+                    
+                    ]
+          
+                }
+            ],
+            "garantia":false,
+            "reparacion":true,
+        "costoDeRparacion":800,
+        "iva":16
+        }
+
+    ],
+    "quienrecibe":"Alejandra",
+    "tecnico":"Id del tecnico, al principio se registra nulo, y despues se asigna",
+    "status":"ObjectId"
+    
+}
